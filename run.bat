@@ -2,7 +2,7 @@
 title 关键词提取并统计词频
 echo 进行分词与关键词提取耗时较长，请耐心等待至完成度到100%%
 Pause
-python fenci.py
+python fenciqianzhi.py
 echo 分词完毕，关键词抽取完毕
 :Choice
 set /p Choice=是否进行关键词词频统计，请选择(Y/N):

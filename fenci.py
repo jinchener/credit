@@ -10,7 +10,7 @@ f_in = open('huodong.txt')
 f_out = open('outfenci.txt', 'w')
 try:
     for l in f_in:
-        seg_list = jieba.cut_for_search(l)
+        seg_list = jieba.cut(l)
         # print "/".join(seg_list)
 
         for seg in seg_list:
